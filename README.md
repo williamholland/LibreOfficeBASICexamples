@@ -8,7 +8,7 @@ I've found the best way to debug is to use breakpoints then type the name of the
 
 You can also make a simple warning dialog like this
 
-```
+```basic
 Doc = ThisComponent
 Print Doc.URL ' shows the local path to this file
 ```
