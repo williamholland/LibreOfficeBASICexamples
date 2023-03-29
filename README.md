@@ -6,6 +6,13 @@ This is where I keep my notes and examples of LibreOffice BASIC macros
 
 I've found the best way to debug is to use breakpoints then type the name of the marker you're looking for in 'Watch:'
 
+You can also make a simple warning dialog like this
+
+```
+Doc = ThisComponent
+Print Doc.URL ' shows the local path to this file
+```
+
 ## Links
 
 * [Language Reference](https://wiki.documentfoundation.org/Documentation/BASIC_Guide#The_Language_of_LibreOffice_BASIC)
