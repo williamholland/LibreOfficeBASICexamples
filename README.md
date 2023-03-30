@@ -34,8 +34,6 @@ Print Doc.URL ' shows the local path to this file
 
 ### Writer
 
-* open a file, write hello world, save file
-* write in 2 different fonts and styles
 * insert image
 * loop through paragraphs and add numbers
 * make a UI dialog
