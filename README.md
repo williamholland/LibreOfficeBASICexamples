@@ -28,7 +28,8 @@ Print Doc.URL ' shows the local path to this file
 ## Links
 
 * [Language Reference](https://wiki.documentfoundation.org/Documentation/BASIC_Guide#The_Language_of_LibreOffice_BASIC)
-* [API Reference](https://api.libreoffice.org/docs/idl/ref/annotated.html)
+* [API Reference](https://www.openoffice.org/api/docs/common/ref/com/sun/star/module-ix.html)
+* [Someone's Examples](https://www.pitonyak.org/oo.php)
 
 ## Examples TODO
 
