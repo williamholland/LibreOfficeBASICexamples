@@ -14,6 +14,15 @@ If a macro is contained in a document, then a recorded macro will attempt to wor
 
 Once you're in the BASIC IDE, goto `Tools > Macros > Organize Macros > Basic` to create new libraries and modules.
 
+## API Reference
+
+I've found the best thing to do is 
+
+1. find the Type of what you want to know interface for using breakpoints
+2. google it
+3. click the link docs.libreoffice.org link
+   1. e.g. for a paragraph object the inspector tells you it's SwXParagraph so go to https://docs.libreoffice.org/sw/html/classSwXParagraph.html
+
 ## Debugging
 
 I've found the best way to debug is to use breakpoints then type the name of the marker you're looking for in 'Watch:'
@@ -28,7 +37,6 @@ Print Doc.URL ' shows the local path to this file
 ## Links
 
 * [Language Reference](https://wiki.documentfoundation.org/Documentation/BASIC_Guide#The_Language_of_LibreOffice_BASIC)
-* [API Reference](https://www.openoffice.org/api/docs/common/ref/com/sun/star/module-ix.html)
 * [Someone's Examples](https://www.pitonyak.org/oo.php)
 
 ## Examples TODO
