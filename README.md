@@ -44,6 +44,9 @@ Print Doc.URL ' shows the local path to this file
 ### Writer
 
 * insert image
-* loop through paragraphs and add numbers
 * make a UI dialog
 * log to terminal???
+
+### Calc
+
+* run macro on all paths taken from cells
