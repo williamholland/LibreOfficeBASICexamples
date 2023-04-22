@@ -46,7 +46,3 @@ Print Doc.URL ' shows the local path to this file
 * insert image
 * make a UI dialog
 * log to terminal???
-
-### Calc
-
-* run macro on all paths taken from cells
