@@ -1,7 +1,6 @@
-Dim DBName as String
-DBName = "New Database"
+global const DBName = "New Database"
+global const SQLInCol = 3
 
-'open a spreadsheet with SQL in column A of each row - run the SQL against the database.
 Sub LoadSheetToDB()
     ' Open a file picker to select the spreadsheet file
     Dim oDoc As Object
@@ -26,14 +25,14 @@ Sub LoadSheetToDB()
     
     ' Load the data row-wise
 	i = 1
-	oCell = oSheet.getCellByPosition(0,i)
+	oCell = oSheet.getCellByPosition(SQLInCol,i)
 	while oCell.Type <> com.sun.star.table.CellContentType.EMPTY
-		strSQL = oSheet.getCellByPosition(1,i).String
+		strSQL = oCell.String
 		Stmt = Conn.createStatement()
 		Result = Stmt.executeQuery(strSQL)
 		
 	    i = i+1
-	    oCell = oSheet.getCellByPosition(0,i)
+	    oCell = oSheet.getCellByPosition(SQLInCol,i)
 	wend
     
     ' Close the spreadsheet
