@@ -14,6 +14,12 @@ If a macro is contained in a document, then a recorded macro will attempt to wor
 
 Once you're in the BASIC IDE, goto `Tools > Macros > Organize Macros > Basic` to create new libraries and modules.
 
+## Language Reference
+
+See here for basics of the language like defining variables, arrays etc
+
+* [BASIC Guide](https://wiki.documentfoundation.org/Documentation/BASIC_Guide)
+
 ## API Reference
 
 I've found the best thing to do is 
