@@ -18,6 +18,7 @@ Once you're in the BASIC IDE, goto `Tools > Macros > Organize Macros > Basic` to
 
 See here for basics of the language like defining variables, arrays etc
 
+* [StarBasic](https://en.wikipedia.org/wiki/OpenOffice_Basic)
 * [BASIC Guide](https://wiki.documentfoundation.org/Documentation/BASIC_Guide)
 
 ## API Reference
