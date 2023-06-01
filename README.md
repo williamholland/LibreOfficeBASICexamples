@@ -20,6 +20,7 @@ See here for basics of the language like defining variables, arrays etc
 
 * [StarBasic](https://en.wikipedia.org/wiki/OpenOffice_Basic)
 * [BASIC Guide](https://wiki.documentfoundation.org/Documentation/BASIC_Guide)
+* [Free Book](https://www.pitonyak.org/oo.php)
 
 ## API Reference
 
